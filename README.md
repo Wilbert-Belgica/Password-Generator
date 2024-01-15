@@ -1,4 +1,4 @@
-<h1>Easy Password Generator</h1>
+<h1>Password Generator</h1>
 
 <h2>Description</h2>
 My first written python program
