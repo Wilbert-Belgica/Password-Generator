@@ -1,10 +1,7 @@
-print("BMI CALCULATOR:")
-height = input("Enter your height in meters: ")
-weight = input("Enter your weight in kilograms: ")
-weight_as_int = int(weight)
-height_as_float = float(height)
-bmi = weight_as_int / height_as_float ** 2
-bmi = weight_as_int / (height_as_float * height_as_float)
-bmi_as_int = int(bmi)
-bmi = int(bmi)
-print("Your Body Mass Index is: " + str(bmi))
+## EASY PW GENERATOR
+# coded by Wilbert Belgica
+print("Welcome to EASY PASSWORD GENERATOR!")
+middle_name = input("What is your Middle Name?\n")
+birthday = input("When is your Birthday(mmddyyyy)?\n")
+color = input("What is your favorite color?\n")
+print("Your password could be:\n"+ middle_name + birthday + color)
